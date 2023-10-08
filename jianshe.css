@@ -1,0 +1,183 @@
+.container, .container-fluid{
+    padding:0; 
+    width:100%;
+  text-align: center;
+    font-size: 17px;
+  }
+  
+  hr{
+    background-color: palevioletred;
+    width: 40%;
+    height:3px;
+    border: none;
+  }
+  
+  /* Navigation Bar */
+  .navbar-inverse{
+    border: none;
+    border-bottom:4;
+    background-color: lightblue;
+    flood-color: palevioletred;
+    padding-right:11px;
+    padding-left:10px;
+  }
+  
+  .navbar ul li a {
+    color: white !important;
+    font-size: 14px;
+  }
+  
+  .navbar ul li a:hover{
+    background-color: palevioletred  !important;
+    color: lightblue !important;
+  }
+  
+  .navbar-head {
+    color: lightblue !important;
+    background-color: palevioletred;
+  }
+  
+  .navbar-brand {
+    color: White !important;
+    background-color: lightblue;;   
+  }
+  
+  .navbar-inverse .navbar-brand:hover{
+    color: White !important;
+    background-color:lightblue;; 
+  }
+  .active{
+    background-color: palevioletred;
+   color:white;
+  }
+  
+  /* Header */
+  .header{
+    padding-top: 0px;
+  }
+  .bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    
+    
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+   }
+    50% {
+        background-position: 100% 50%;
+   }
+    100% {
+        background-position: 0% 50%;
+   }
+}
+  
+  .thin-white-border{
+    border-width:10px;
+    border-color: lightblue;
+    border-style: solid;
+  }
+  h1{
+    padding-top:200px;
+    font-size: 10.0vmin;
+    color: palevioletred;
+  }
+    .hr1{
+    background-color: white;
+    width: 75%;
+    height:5px;
+    border: none;
+  } 
+  @media only screen and (max-width:480px){
+    h1{ font-size: 1vmin
+    position fixed;
+    }
+  }
+  
+  /* Body */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    font-family: 'Roboto Slab', serif;
+  }
+  /* About Me */
+  .about{
+    background-color: palevioletred;
+    color:white;
+    padding: 50px;
+    margin-top:0; 
+    
+  }
+  /* Skills */
+  .skills{
+    background-color: lightblue;
+    padding: 50px;
+    color:white;
+  }
+  
+  .devicons {
+    font-size: 60px;
+  }
+  /* Portfolio */
+  .portfolio{
+    background-color:palevioletred;
+    color: white;
+    padding: 50px;
+    text-align: center;
+  }
+  .thumbnail {
+   width: 350px;
+   height: 350px; 
+   margin: auto auto;
+  }
+
+.thumbnail {
+ width: 350px;
+ height: 350px; 
+ margin: auto auto;
+}
+  
+  .space {
+    margin-top: 40px;
+    text-align: center;
+    overflow: hidden;
+  }
+  /*Contact*/
+  .links{
+    padding: 10px;
+    padding-right: 10px;
+    color:white;
+  }
+  
+  .links:hover{
+    color: palevioletred;
+    text-decoration:none;
+    
+  }
+  .contact{
+    background-color: lightblue;
+    padding: 50px;
+    color: white;
+  
+  }
+  .btn{
+    background: white;
+    color: lightblue; 
+  }
+  
+  
+  /*Footer*/
+  .footer{
+    background-color: palevioletred;
+    color: white;
+    padding:10px 0 5px 10px;
+    text-align: left;
+    font-size:14px;
+  }
